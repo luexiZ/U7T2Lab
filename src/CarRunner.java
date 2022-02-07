@@ -8,6 +8,7 @@ public class CarRunner
 
     public static void main(String[] args)
     {
+        System.out.println("Hi");
         UsedCarLot lot = new UsedCarLot();
         Car car1 = new Car("Mustang", 12500);
         Car car2 = new Car("Camry", 8400);
@@ -79,4 +80,5 @@ public class CarRunner
         System.out.println(" Expected: " + tempList);
         System.out.println("   Actual: " + actInv);
     }
+
 }
